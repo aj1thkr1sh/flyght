@@ -9,7 +9,7 @@ Simple, yet powerful
 
 ## Usage
 ```
-<script type="text/javascript" src="https://unpkg.com/flyght@1.0.0/flyght.js"></script>
+<script type="text/javascript" src="https://unpkg.com/flyght"></script>
 ```
 Simple right?
 
