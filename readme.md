@@ -43,14 +43,14 @@ Flyght.init({
 ```
 ### Configuration Parameters
 
-1. idElement : is the id of the DOM Element, where the loaded page is rendered
+1. idElement : Is the id of the DOM Element, where the loaded page is rendered
 
-2. urlConfiguration : is the Array of Object that has, url, hash, and request type
-      1. hash : the hash we provided
-      2. url : for the given hash respective URL will be called and response will be attached to the idElement content
-      3. type : the request type URL to be called
-3. requestHeader : the header to be attached to the request
-      1. header : the header value to be attached to the header
-      2. value : the value to the request header
+2. urlConfiguration : Is the Array of Object that has, url, hash, and request type
+      1. hash : The hash we provided
+      2. url : For the given hash respective URL will be called and response will be attached to the idElement content
+      3. type : The request type URL to be called
+3. requestHeader : The header to be attached to the request
+      1. header : The header value to be attached to the header
+      2. value : The value to the request header
 
 [:star: on GitHub](https://github.com/aj1thkr1sh/flyght) if you love
