@@ -21,16 +21,25 @@ You need to init the Flyght with required parameter, then your webpage will turn
 
 ```
 Flyght.init({
-			idElement: "idElement",
-			urlConfiguration: [
-				{hash: "#about", url: "/about.html", type: "GET"},
-        {hash: "#contact", url: "/contact.html", type: "GET"},
-        {hash: "#team", url: "/team.html", type: "GET"}
-			],
-			requestHeader: [
-		        {header: 'Content-type', value: 'application/json'}
-		      ]
-		});
+  idElement : "idElement",
+  urlConfiguration : [ {
+    hash : "#about",
+    url : "/about.html",
+    type : "GET"
+  }, {
+    hash : "#contact",
+    url : "/contact.html",
+    type : "GET"
+  }, {
+    hash : "#team",
+    url : "/team.html",
+    type : "GET"
+  } ],
+  requestHeader : [ {
+    header : 'Content-type',
+    value : 'application/json'
+  } ]
+});
 ```
 ### Configuration Parameters
 
