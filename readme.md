@@ -1,9 +1,11 @@
-![EnFields](https://raw.githubusercontent.com/aj1thkr1sh/EnField/main/Enfields_Cover.png)
+![EnFields](https://github.com/aj1thkr1sh/flyght/blob/main/flyght.png?raw=true)
 
 # Flyght
 Hi, library for making Single Page Application (SPA) in Vanilla JavaScript
 
 One can easily make Single Page Application using the Flyght
+
+Simple, yet powerful
 
 ## Usage
 ```
@@ -18,10 +20,12 @@ Yes, Simple yet powerful
 You need to init the Sptz with required parameter, so that you webpage will turn into SPA, like the Spotz way
 
 ```
-Spotz.init({
+Flyght.init({
 			idElement: "idElement",
 			urlConfiguration: [
-				{hash: "#about", url: "/about.html", type: "GET"}
+				{hash: "#about", url: "/about.html", type: "GET"},
+        {hash: "#contact", url: "/contact.html", type: "GET"},
+        {hash: "#team", url: "/team.html", type: "GET"}
 			],
 			requestHeader: [
 		        {header: 'Content-type', value: 'application/json'}
