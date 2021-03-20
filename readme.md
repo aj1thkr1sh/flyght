@@ -1,4 +1,4 @@
-![EnFields](https://github.com/aj1thkr1sh/flyght/blob/main/flyght.png?raw=true)
+![Flyght](https://github.com/aj1thkr1sh/flyght/blob/main/flyght.png?raw=true)
 
 # Flyght
 Hi, library for making Single Page Application (SPA) in Vanilla JavaScript
@@ -17,15 +17,15 @@ Yes, Simple yet powerful
 
 ## Configuration
 
-You need to init the Sptz with required parameter, so that you webpage will turn into SPA, like the Spotz way
+You need to init the Flyght with required parameter, then your webpage will turn into SPA, like the Flyght way
 
 ```
 Flyght.init({
 			idElement: "idElement",
 			urlConfiguration: [
 				{hash: "#about", url: "/about.html", type: "GET"},
-        {hash: "#contact", url: "/contact.html", type: "GET"},
-        {hash: "#team", url: "/team.html", type: "GET"}
+                {hash: "#contact", url: "/contact.html", type: "GET"},
+                {hash: "#team", url: "/team.html", type: "GET"}
 			],
 			requestHeader: [
 		        {header: 'Content-type', value: 'application/json'}
@@ -44,4 +44,4 @@ Flyght.init({
       1. header : the header value to be attached to the header
       2. value : the value to the request header
 
-[:star: on GitHub](https://github.com/aj1thkr1sh/EnField) if you love
+[:star: on GitHub](https://github.com/aj1thkr1sh/flyght) if you love
