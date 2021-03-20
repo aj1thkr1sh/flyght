@@ -1,0 +1,24 @@
+{
+  "name": "flyght",
+  "version": "1.0.0",
+  "description": "Flyght is the vanilla JS Single Page Application Library",
+  "main": "flyght.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aj1thkr1sh/flyght.git"
+  },
+  "keywords": [
+    "flyght",
+    "singlepageapplication",
+    "spa"
+  ],
+  "author": "Ajith Krish <mailingtoajith@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aj1thkr1sh/flyght/issues"
+  },
+  "homepage": "https://github.com/aj1thkr1sh/flyght#readme"
+}
