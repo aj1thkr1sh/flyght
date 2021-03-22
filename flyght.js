@@ -37,7 +37,7 @@ var Flyght = {
 		for ( var key in Flyght.hashPageList) {
 			if (window.location.hash === Flyght.hashPageList[key].hash) {
 				var url = Flyght.hashPageList[key].url;
-				var type = Flyght.hashPageList[key].type;
+				var type = typeof Flyght.hashPageList[key].type !== "undefined"? Flyght.hashPageList[key].type: "GET";
 
 				Flyght.xhr.open(type, url, true);
 

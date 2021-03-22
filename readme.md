@@ -1,11 +1,15 @@
 ![Flyght](https://github.com/aj1thkr1sh/flyght/blob/main/flyght.png?raw=true)
 
 # Flyght
-Hi, library for making Single Page Application (SPA) in Vanilla JavaScript
+Hi, library for making Single Page Application (SPA) in Vanilla JavaScript library
+
+Flyght works based ```window.loction.hash``` whenever the hash changes, the configured URL will be triggered and page will be loaded
 
 One can easily make Single Page Application using the Flyght
 
 Simple, yet powerful
+
+Note : Single Page Application might affect SEO, choose appropriate case to use
 
 ## Usage
 ```

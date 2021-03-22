@@ -1,6 +1,6 @@
 {
   "name": "flyght",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Flyght is the vanilla JS Single Page Application Library",
   "main": "flyght.js",
   "scripts": {
