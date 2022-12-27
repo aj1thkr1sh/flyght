@@ -2,9 +2,12 @@
   "name": "flyght",
   "version": "1.0.3",
   "description": "Flyght is the vanilla JS Single Page Application Library",
-  "main": "flyght.js",
+  "main": "./dist/flyght.js",
+  "source":"flyght.js",
   "scripts": {
-    "test": "test.js"
+    "test": "jest test.js",
+    "watch":"parcel watch",
+    "build":"parcel build"
   },
   "repository": {
     "type": "git",
@@ -15,6 +18,10 @@
     "singlepageapplication",
     "spa"
   ],
+  "devDependencies":{
+    "parcel":"*",
+    "jest":"*"
+  },
   "author": "Ajith Krish <mailingtoajith@gmail.com>",
   "license": "ISC",
   "bugs": {
